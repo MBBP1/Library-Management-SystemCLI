@@ -23,27 +23,61 @@ Classes Overview
 
     Library: Handles all core operations like adding/removing books and members, issuing/returning books, and displaying/searching data.
 
-## Usage
-Once the program starts, you will be presented with a menu. Select an option by entering the corresponding number:
-0. Add Ebook
-1. Add Book
-2. Add Member
-3. Display Books
-4. Display Members
-5. Issue Book
-6. Return Book
-7. Display Transaction History
-8. Remove Member
-9. Update Member
-10. Update Book
-11. Search For Books
-12. Remove Book
-13. Exit
+Requirements
 
-Follow the on-screen instructions to enter the necessary details.
+    Python 3.6 or later
+
+    No external libraries required
+
+Usage
+
+When the program is run, you will be presented with a numbered menu. You can perform actions like:
+
+    Add a book or member
+
+    Display all books or members
+
+    Borrow or return a book
+
+    Update or remove books/members
+
+    Search books by title or author
+
+    View all transaction history
+
+All input is handled via the terminal. Follow the on-screen instructions to enter the necessary details.
+
+Project Structure
+
+    Book and Ebook classes demonstrate polymorphism.
+
+    Member keeps track of borrowed books and transactions.
+
+    Library class manages the overall system.
+
+    Input validation is done through a helper function getInt().
+
+Author
+
+Mikkel Bentsen-Petersen
+Created: March 25, 2025
 
 
+How to Run
 
+    Clone the repository:
+
+git clone https://github.com/your-username/library-management-system.git
+
+Navigate to the project directory:
+
+cd library-management-system
+
+Run the program:
+
+    python3 library.py
+
+    Make sure you have Python 3 installed on your system.
 
 
 
