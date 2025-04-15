@@ -4,14 +4,14 @@
 This Library Management System is a console-based application that allows users to manage books, e-books, and members within a library. The system provides functionalities to add, update, remove, and display books and members, as well as manage book borrowing and returning transactions.
 
 ## Features
-- Add, update, remove, and search for books (physical and e-books)
-- Add, update and remove members
-- Borrow and return books
-- Track transaction history per member
-- View available books
-- View members
-- CLI-based interaction for easy terminal use
-- Error handling for invalid inputs
+     Add, update, remove, and search for books (physical and e-books)
+     Add, update and remove members
+     Borrow and return books
+     Track transaction history per member
+     View available books
+     View members
+     CLI-based interaction for easy terminal use
+     Error handling for invalid inputs
 
 Classes Overview
 
@@ -67,7 +67,7 @@ How to Run
 
     Clone the repository:
 
-git clone https://github.com/your-username/library-management-system.git
+git clone https://github.com/MBBP1/Library-Management-SystemCLI.git
 
 Navigate to the project directory:
 
