@@ -4,15 +4,16 @@ from Library_cli import Book, Ebook, Member, Library
 
 class TestLibraryManagement(unittest.TestCase):
 
+    # SetUp Runs before each test and 
     def setUp(self):
-        self.book = Book(1, "Python Programming", "John Doe", 3)
+        self.book = Book(1, "Python Programming", "John Doe", 3) 
         self.ebook = Ebook(2, "Machine Book", "Jane Doe", 5)
         self.member = Member(1, "Alice")
         self.library = Library()
 
     def test_book_initialization(self):
-        self.assertEqual(self.book.book_id, 1)
-        self.assertEqual(self.book.title, "Python Programming")
+        self.assertEqual(self.book.book_id, 1) 
+        self.assertEqual(self.book.title, "Python Programming") 
         self.assertEqual(self.book.author, "John Doe")
         self.assertEqual(self.book.copies, 3)
     
