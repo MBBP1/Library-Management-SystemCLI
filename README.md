@@ -65,19 +65,19 @@ Created: March 25, 2025
 
 How to Run
 
-    Clone the repository:
+Clone the repository:
 
-git clone https://github.com/MBBP1/Library-Management-SystemCLI.git
+     git clone https://github.com/MBBP1/Library-Management-SystemCLI.git
 
 Navigate to the project directory:
 
-cd library-management-system
+     cd library-management-system
 
 Run the program:
 
     python3 library.py
 
-    Make sure you have Python 3 installed on your system.
+Make sure you have Python 3 installed on your system.
 
 
 
