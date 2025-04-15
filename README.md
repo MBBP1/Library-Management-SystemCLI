@@ -5,12 +5,19 @@ This Library Management System is a console-based application that allows users 
 
 ## Features
      Add, update, remove, and search for books (physical and e-books)
+     
      Add, update and remove members
+     
      Borrow and return books
+     
      Track transaction history per member
+     
      View available books
+     
      View members
+     
      CLI-based interaction for easy terminal use
+     
      Error handling for invalid inputs
 
 Classes Overview
